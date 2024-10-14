@@ -1,0 +1,75 @@
+@font-face {
+    font-family: Kollektif;
+    src: url(Fonts/Kollektif-Bold.ttf);
+}
+@font-face{
+    font-family: Baron;
+    src: url(Fonts/BaronNeue-Black.otf,);
+    src: url(Fonts/BaronNeue-Bold.otf);
+    src: url(Fonts/BaronNeue-Regular.otf);
+}
+*{
+    background-color: #011e31;
+    color: white;
+
+}
+header{
+    font-family: Kollektif;
+    display: flex;
+    font-size: 20pt;
+    flex-direction: row;
+    color: beige;
+    margin-left: 10px;
+    
+    font-family: Baron;
+
+}
+.header{
+    display: flex;
+    /* border: 2px solid black; */
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+.header1{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+.header2{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+.container{
+    /* border: 2px solid white ; */
+    width: 1920px;
+    height: 750px;
+    display: flex;
+    flex-direction: row;
+}
+.image{
+    width: 700px;
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.clients{
+    padding-left: 20px;
+    width: 1220px;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;   
+    gap: 0px;
+    align-items: center;
+    font-size: 50pt;
+    font-family: Kollektif;
+}
+p{
+    color: #ffc374;
+}

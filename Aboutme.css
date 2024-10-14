@@ -1,0 +1,101 @@
+@font-face {
+    font-family: Kollektif;
+    src: url(Fonts/Kollektif-Bold.ttf);
+}
+@font-face{
+    font-family: Baron;
+    src: url(Fonts/BaronNeue-Black.otf,);
+    src: url(Fonts/BaronNeue-Bold.otf);
+    src: url(Fonts/BaronNeue-Regular.otf);
+}
+/* as said before default */
+*{
+    background-color: #011e31;
+    
+
+}
+/* setting the style for all header files not the .header div */
+header{
+    font-family: Kollektif;
+    display: flex;
+    font-size: 20pt;
+    flex-direction: row;
+    color: white;
+    margin-left: 10px;
+}
+/* adjusting the parent and children divs to the design at hand */
+.header{
+    display: flex;
+    /* border: 2px solid white; */
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-bottom: 70px;
+}
+.header1{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    font-family: Baron;
+}
+.header2{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    font-family: Baron;
+
+}
+.container{
+    color: white;
+    /* border: 2px solid white; */
+    width: 1920px;
+    height: 750px;
+    display: flex;
+    flex-direction: row;
+}
+/* adjusting the places of images to fit the pages look better  */
+.images{
+    width: 1220px;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0px;
+}
+.img1{
+    margin-left: 50px;
+}
+.img2{
+    margin-left: 20px;
+}
+/* setting the size and fonts and more to the description */
+.description{
+    width: 700px;
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    
+}
+.describeMe {
+    font-family: Kollektif; 
+    font-size: 50pt;
+    width: 650px;
+    line-height: 70pt;
+    margin-left: 40px;
+    color: #f9e897;
+    
+    margin-top: 5opx;
+}
+.names {
+    font-family: Kollektif;
+    font-size: large;
+    margin-left: 40px;
+    color: #ffc374;
+    width: 300px;
+    font-weight: lighter;
+}
+a {
+    color: #ffc374;
+}

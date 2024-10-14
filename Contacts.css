@@ -1,0 +1,66 @@
+@font-face {
+    font-family: Kollektif;
+    src: url(Fonts/Kollektif-Bold.ttf);
+}
+@font-face{
+    font-family: Baron;
+    src: url(Fonts/BaronNeue-Black.otf,);
+    src: url(Fonts/BaronNeue-Bold.otf);
+    src: url(Fonts/BaronNeue-Regular.otf);
+}
+*{
+    background-color: #011e31;
+    color: white;
+
+}
+header{
+    font-family: Kollektif;
+    display: flex;
+    font-size: 20pt;
+    flex-direction: row;
+    color: beige;
+    margin-left: 10px;
+}
+.header{
+    display: flex;
+    /* border: 2px solid black; */
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+.header1{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+.header2{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+/* setting the style applied to the larger div */
+.container{
+    /* border: 2px solid white; */
+    width: 1920px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* enlarging the main focus points and also having smaller font identifiers aswell */
+.acc, .mail, .num {
+    font-size: 50px;
+    font-family: Baron;
+    color: #ffc374;
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+}
+.telegram, .phone, .Email {
+    font-size: 15pt;
+    font-family: Kollektif;
+    color: #f9e897;
+}

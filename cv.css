@@ -1,0 +1,185 @@
+
+/* extra fonts */
+@font-face{
+    font-family: Baron;
+    src: url(Fonts/BaronNeue-Black.otf,);
+    src: url(Fonts/BaronNeue-Bold.otf);
+    src: url(Fonts/BaronNeue-Regular.otf);
+}
+@font-face {
+    font-family: Kollektif;
+    src: url(Fonts/Kollektif-Bold.ttf);
+}
+/*setting a defualt style*/
+*{
+    background-color: #00060f;
+    color: white;
+    font-family: Kollektif
+}
+/* mostly used flex to organize the page the way it is seen now  */
+.Personalinfoandimg{
+    display: flex;
+    flex-direction: row; 
+    gap: 50px;
+}
+
+.CV{
+    font-family: Baron;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 50px;
+    font-weight: bolder;
+    text-decoration-line: underline;
+    text-decoration-color: burlywood;
+}
+a{
+    color: #f9e897;
+    text-decoration: none;
+    background-color: transparent;
+    
+}
+
+.personalinfotype > p{
+    color: #ffc374;
+    text-decoration-color: #f9e897;
+    text-transform: uppercase;   
+}
+
+
+
+.info{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    
+}
+.personalinfo p {
+    font-family: Baron;  
+    color: #011c49;
+
+}
+ol > li {
+    margin-bottom: 20px; 
+  }
+  /* the p elements in each class are being targeted to apply certain styles */
+.po > p, .EB > p, .WB > p, .OBJ > p, .SKI > p, .LA > p, .HOB > p {
+    
+    font-style: italic;
+    color: #f9e897;
+    font-family: Baron;
+    
+}
+/* setting new style futures for the for aesthetic purposes  */
+table{
+    width: 100%;
+    border: 0px;
+}
+th, td {
+    padding: 15px;
+    text-align: left;
+    border: 0px;
+
+}
+th, td {
+    border-bottom: 1px solid #ddd;
+  }  
+  /* a hover selector that applies a Bg color change when hovering over the elemets of the table and the links aswell */
+tr:hover a{
+    background-color: #f9e897;
+    color: black;
+    
+}
+table :hover {
+    background-color: #f9e897;
+    color: black;
+}
+    
+/* new opacity setting to later apply a hover selector to  transform it into being fully visible */
+img {
+    opacity: 0.5;
+  }
+  
+  img:hover {
+    opacity: 1.0;
+  }
+  .po, .EB, .HOB, .LA, .SKI, .OBJ, .WB {
+    justify-content: space-evenly;
+    
+  }
+  .personalinfo :hover {
+    color: #f9e897;
+
+  }
+
+/* multiple chnages and stylings applies to the top bar that includes a background picture */
+.top{
+    opacity: 1;
+    height: 300px;
+    width: 100%;
+    background-color: #011e31;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 20pt;
+    margin-bottom: 50px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    background-image: url('img.JPEG'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center ;
+}
+
+
+
+
+.images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+.Hiyaw{
+    color: #ffc374;
+    font-family: Baron;
+    background-color: transparent;
+}
+.MP{
+    color: #f9e897;
+    font-family: Baron;
+    background-color: transparent;
+
+    
+}
+.Saucek{
+    color: #ffc374;
+    font-family: Baron;
+    background-color: transparent;
+   
+}
+/* menu bar styling */
+.MENU {
+    opacity: 0.8;
+    background-color: #011e31;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    font-size: 15pt;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}    
+.MENU a{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    margin-left: 10%;
+    color: white;
+    justify-content: space-evenly;
+    background-color: #000d24;
+}

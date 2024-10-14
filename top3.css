@@ -1,0 +1,88 @@
+@font-face {
+    font-family: Kollektif;
+    src: url(Fonts/Kollektif-Bold.ttf);
+}
+*{
+    background-color: #011e31;
+    color: white;
+
+}
+header{
+    font-family: Kollektif;
+    display: flex;
+    font-size: 20pt;
+    flex-direction: row;
+    color: beige;
+    margin-left: 10px;
+}
+.header{
+    display: flex;
+    /* border: 2px solid white; */
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+.header1{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+.header2{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+.images{
+    /* border: 2px solid yellow; */
+    width: 1920px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.img1{
+    margin-left: 60px;
+}
+img {
+    border-radius: 15px;
+}
+.genres {
+    width: 1920px; 
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid green; */
+    padding-left: 70px;
+    gap: 500px;
+    font-size: larger;
+    font-family: Kollektif;
+    
+}
+
+.trapdiv{
+    /* border: 2px solid red; */
+    margin-left: -20px;
+}
+.afrodiv{
+    /* border: 2px solid cadetblue; */
+    margin-left: -50px;
+}
+.genres p {
+    color: #f9e897;
+    text-decoration: underline;
+    text-shadow: 2px 2px 8px #034b7a;
+}
+.description{
+    /* border: 2px solid white;    */
+    display: flex;
+    flex-direction: row;
+    padding-left: 70px;
+    gap: 210px;
+}
+.description p {
+    width: 400px;
+    font-size: larger;
+    font-family: Kollektif;
+    color: #ffc374;
+}
